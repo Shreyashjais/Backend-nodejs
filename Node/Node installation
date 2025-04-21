@@ -1,0 +1,7 @@
+Create a folder.
+Open in terminal
+npm init -y
+npm i express
+node server.js ---> To run file.
+
+npm i mongoose ---> To connect 
