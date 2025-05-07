@@ -37,7 +37,7 @@ exports.unlikePost = async (req, res) => {
     );
     res.json({
       post: updatedPost,
-    });
+    });  
   } catch (error) {
     return res.status(500).json({
       error: "Error while creating comment",
